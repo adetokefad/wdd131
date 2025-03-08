@@ -94,8 +94,8 @@ footer {
   color: white;
   align-items: center;
   padding: 30px;
-  display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 .country-description {
   display: flex;
