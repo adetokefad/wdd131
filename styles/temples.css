@@ -18,7 +18,7 @@ header {
 }
 
 nav {
-  background-color: blueviolet;
+  background-color: #212a31;
   color: white;
   padding: 10px 20px;
 }
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: yellow;
+  color: #124e66;
 }
 
 .mobile-view {
@@ -79,7 +79,7 @@ main h2 {
 
 footer {
   grid-area: footer;
-  background-color: blueviolet;
+  background-color: #212a31;
   color: white;
   text-align: center;
   padding: 5px;
