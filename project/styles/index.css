@@ -1,14 +1,17 @@
 .hero {
   position: relative;
-  height: 80vh;
+  height: auto;
   width: 100%;
-  background-image: url("/project/images/hero-small.webp");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
+  display: block;
+  text-align: center;
   color: white;
   border-bottom: 3px solid #e6b800;
+}
+
+.hero img {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .hero-content {
@@ -16,6 +19,7 @@
   z-index: 2;
   padding: 0 10%;
   width: 100%;
+  align-items: center;
 }
 
 .hero-overlay {
@@ -35,8 +39,8 @@
 }
 
 .hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
   max-width: 600px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }

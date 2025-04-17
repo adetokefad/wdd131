@@ -51,16 +51,6 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
-     background-color: #ffcc00;
-     color: black;
-     padding: 8px 15px;
-     display: inline-block;
-     text-decoration: none;
-     border-radius: 2px;
-     font-weight: bold;
-}
-
 /* === Modal Styles === */
 .modal {
   display: none;
@@ -159,7 +149,7 @@ table tr:nth-child(even) {
 
 .cta-section .btn-primary {
   background-color: #ffcc00;
-  color: white;
+  color: black;
   padding: 12px 25px;
   border-radius: 5px;
   font-weight: bold;
@@ -171,7 +161,7 @@ table tr:nth-child(even) {
 }
 
 .cta-button {
-     color: white;
+     color: black;
      background-color: #ffcc00;
      padding: 5px;
 }

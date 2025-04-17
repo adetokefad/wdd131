@@ -83,6 +83,11 @@ nav a.active {
      margin-right: 10px;
 }
 
+.logo-text h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: white;
+}
 footer {
   background-color: #003366;
   color: white;
