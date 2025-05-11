@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeal Cargo</title>
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Fundamentals by Adetoke"
+    />
+    <meta name="author" content="Adetoke Faderin assignment project" />
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/zealcargologo.webp" alt="Zeal Cargo Logo" />
+        <div class="logo-text">
+          <h1>Zeal Cargo</h1>
+        </div>
+        </div>
+      <nav>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <div class="menu-icon" id="menuToggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <picture>
+          <source srcset="images/hero-small.webp" media="(min-width: 1200px)">
+          <source srcset="images/hero-medium.webp" media="(min-width: 800px)">
+          <img srcset="images/hero-large.webp" alt="Hero Photo" width="500" height="250">
+        </picture>
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1 class="hero-title">Reliable Cargo. Seamless Delivery.</h1>
+            <p class="hero-subtitle">
+              At Zeal Cargo, we move the world forward - one shipment at a time.
+            </p>
+            <a href="services.html" class="cta-button">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>Why Choose Zeal Cargo?</h2>
+        <div class="features-container">
+          <div class="feature-card">
+            <h3>Global Network</h3>
+            <p>Our extensive network covers different coutries, ensuring your cargo reaches anywhere.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Real-time Tracking</h3>
+            <p>Track your shipments 24/7 with our tracking technology.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Cost-effective Solutions</h3>
+            <p>Competitive rates and customized solutions to fit your budget.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-content">
+        <div class="cargo-info">
+          <p>Zeal Cargo</p>
+          <p>31A Bode Fakunle Street</p>
+          <p>OPIC</p>
+          <p>zealcargo.org</p>
+          <p>(234) 703-2338-813</p>
+        </div>
+        <div class="footer-info">
+          <p>&copy; <span id="currentyear"></span> Zeal Cargo</p>
+          <p>Last Modification: <span id="lastModified"></span></p>
+          <p>Zeal Cargo. All Rights Reserved.</p>
+        </div>
+      </section>
+    </footer>
+    <button id="back-to-top" title="Back to Top">↑</button>
+  </body>
+</html>
